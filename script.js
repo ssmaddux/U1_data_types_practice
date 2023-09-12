@@ -37,9 +37,11 @@
 
 /* Arrays */
 
+// Create an array of Movies, then log the 2nd movie in your array
+// Use your array methods to add a movie in to the Front of the array, then the Back of the Array, then to the 2nd index point of the array
+
 
 /*
- * Prompt 1:
  *
  * Retrieve "Marty McFly" from each of the arrays below.
  */
@@ -56,7 +58,6 @@ let array3 = [
 ];
 
 /*
- * Prompt 2:
  *
  * Use the length of the array below to retrieve the second to last item.
  */
@@ -64,7 +65,6 @@ let array3 = [
 let array4 = ['a', 'b', 'c', 'd', 'e'];
 
 /*
- * Prompt 3:
  *
  * Use the following arrays to answer the subprompts below.
  */
