@@ -4,12 +4,18 @@
  * Declare a variable called myFavoriteSong on one line and console.log the value
  * Then, using your Literals, console.log "my favorite song is..." with the song's value
  */
+let myFavoriteSong = "The Martian"
+// console.log(`MY favorite song is ${myFavoriteSong}`)
 
 /*
  * Prompt 2:
  *
  * Declare 3 variables using each of let, const, and var, then console.log each of them
  */
+let sage = 1
+const sage1 = 2
+var sage2 = 3
+//console.log(sage, sage1, sage2)
 
 /*
  * Prompt 3:
@@ -21,6 +27,15 @@
  *   - divide your variable by 7
  *   - calculate the remainder of dividing your variable by 2
  */
+let num = 100
+num = num + 1
+num = num - 1
+num = num * 3
+num = num / 7
+num = num % 2
+//console.log(num)
+
+
 
 /*
  * Prompt 4:
@@ -33,13 +48,21 @@
  * and lastName variables.
  * Run a console.log that says 'hello my name is..." with your fullName. 
  */
+let firstN = "Sage"
+let lastN = "Maddux"
+fullName = firstN + " " + lastN
+//console.log(`Hello my name is ${fullName}`)
 
 
 /* Arrays */
 
 // Create an array of Movies, then log the 2nd movie in your array
 // Use your array methods to add a movie in to the Front of the array, then the Back of the Array, then to the 2nd index point of the array
-
+let arr = ["Movie0", "Movie1", "Movie2"]
+arr.unshift("newMovie0")
+arr.push("newMovie2")
+arr.splice(2,0, "newMovie2")
+//console.log(arr)
 
 /*
  *
@@ -57,12 +80,19 @@ let array3 = [
   ['Marty Stuart', ['Marty Janetty', ['Marty McFly'], 'Marty Robbins']]
 ];
 
+array1[2]
+array2[1][1]
+array3[1][1][1][0]
+//add console.log to print out.
+
 /*
  *
  * Use the length of the array below to retrieve the second to last item.
  */
 
 let array4 = ['a', 'b', 'c', 'd', 'e'];
+array4[3]
+
 
 /*
  *
@@ -77,9 +107,20 @@ let cathleen = ['Cathleen', 186, 'New York'];
 // Cathleen decides that Thom can't be named "Thom" anymore. Remove "Thom" from
 // the thom array and replace it with "Tom".
 
+thom.splice(0,1, "Tom")
+//console.log(thom)
+
 // Karolin just had her birthday; change Karolin's array to reflect her being
 // a year older.
 
+karolin.splice(1,1,17)
+//console.log(karolin)
+
 // Change Cathleen's hometown from New York to "Gotham City".
 
+cathleen.splice(2,1,"Gotham City")
+//console.log(cathleen)
+
 // Remove "Pittsburgh" from Kristyn's array and add "Oakland".
+kristyn.splice(2,1,"Oakland")
+//console.log(kristyn)
